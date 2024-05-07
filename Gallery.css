@@ -1,0 +1,81 @@
+.tangerine-regular{
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+body{
+    text-align: left;
+    font-size: ;
+}
+* {font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    color: #f1f1f1;
+    background-color: black;
+
+}
+.arbol {
+    width: 350px;
+    height: 500px;
+}
+.hada {
+    width: 350px;
+    height: 500px;
+    
+}
+.profile {
+    width: 350px;
+    height: 500px;
+}
+.under {
+    width: 350px;
+    height: 500px;
+}
+.meli {
+    width: 350px;
+    height: 500px;
+}
+.Maceta {
+    width: 500px;
+    height: 500px;
+}
+.Maceta2 {
+    width: 500px;
+    height: 500px;
+}
+.imgcontainer {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.Vaquita {
+    width: 500px;
+    height: 500px;
+
+}
+.imgcontainer {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.imgcontainer1 {
+    
+    
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    justify-content: space-between;
+    gap: 30px;
+
+}
