@@ -4,78 +4,111 @@
     font-style: normal;
   }
 body{
-    text-align: left;
-    font-size: ;
+    
+
 }
 * {font-family: "Tangerine", cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 45px;
+    font-size: 50px;
     color: #f1f1f1;
     background-color: black;
 
 }
+.imgcontainer{
+    background: none;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
 .arbol {
-    width: 350px;
-    height: 500px;
+    height: 280px;
 }
 .hada {
-    width: 350px;
-    height: 500px;
-    
+    height: 280px;
 }
-.profile {
-    width: 350px;
-    height: 500px;
+.profile{
+    height: 280px;
 }
-.under {
-    width: 350px;
-    height: 500px;
+.under{
+    height: 280px;
 }
 .meli {
-    width: 350px;
-    height: 500px;
-}
-.Maceta {
-    width: 500px;
-    height: 500px;
-}
-.Maceta2 {
-    width: 500px;
-    height: 500px;
-}
-.imgcontainer {
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    justify-content: space-between;
-    gap: 30px;
-
-}
-.Vaquita {
-    width: 500px;
-    height: 500px;
-
-}
-.imgcontainer {
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    justify-content: space-between;
-    gap: 30px;
-
+    height: 280px;
 }
 .imgcontainer1 {
-    
-    
-    width: 500px;
-    height: 500px;
-    position: absolute;
-    justify-content: space-between;
-    gap: 30px;
-
+    background: none;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.Maceta {
+    height: 280px;
+}
+.Maceta2 {
+    height: 280px;
+}
+.Vaquita {
+    height: 280px;
+}
+.imgcontainer2{
+    background: none;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.flo1 {
+    height: 450px;
+}
+.flo2 {
+    height: 450px;
+}
+.flo3 {
+    height: 450px;
+}
+.piba {
+    height: 350px;
+}
+.hongos {
+    height: 280px;
+}
+.lion {
+    height: 280px;
+}
+.lion1 {
+    height: 280px;
+}
+.danae {
+    height: 280px;
+}
+.shuinori {
+    height: 280px;
+}
+.morrigan {
+    height: 280px;
+}
+.victoriaf {
+    height: 280px;
+}
+.imgcontainer3{
+    background: none;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.imgcontainer4{
+    background: none;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.port {
+    font-size: 75px;
+    text-align: center;
 }
