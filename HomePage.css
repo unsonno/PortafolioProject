@@ -1,15 +1,12 @@
 * {
-    background-image: url(/imagenes/back2.jpg);
+    background-color: black;
     background-position: center;
     background-size: cover;
     background-repeat: repeat-y;
     font-family: "Tangerine", cursive;
     font-weight: 100;
     font-style: normal;
-    font-size: 55px;
     color: #f1f1f1;
-
-
 }
 .tangerine-regular {
     font-family: "Tangerine", cursive;
@@ -17,19 +14,40 @@
     font-style: normal;
 }
 .ytr {
-    background-image: none;
-    margin-top: 10%;
-    margin-left: 2%;
+    font-size: 80px;
   }
 .abme{
     background-image: none;
-    text-align: center;
+    text-align: left;
+    font-size: 35px;
   }
 
 .pie-pagina{
-    display: flex;
-    flex-direction: column;
-    align-content: end;
-    position: relative;
+    font-size: 30px;
+}
+.profile {
+   
+    height: 450px;
 
+}
+.barra {
+    transform: rotate(90deg);
+    color: #f1f1f1;
+    border-color: #f1f1f1;
+    border-width: 2px;
+    width: 800px;
+    position: absolute;
+    left: 380px;
+    top: 295px;
+}
+.group {
+    
+    position: absolute;
+    top: 150px;
+    right: 170px;
+    
+
+}
+.link {
+    font-size: 50px;
 }
