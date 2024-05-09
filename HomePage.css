@@ -1,0 +1,35 @@
+* {
+    background-image: url(/imagenes/back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    font-family: "Tangerine", cursive;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 55px;
+    color: #f1f1f1;
+
+
+}
+.tangerine-regular {
+    font-family: "Tangerine", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.ytr {
+    background-image: none;
+    margin-top: 10%;
+    margin-left: 2%;
+  }
+.abme{
+    background-image: none;
+    text-align: center;
+  }
+
+.pie-pagina{
+    display: flex;
+    flex-direction: column;
+    align-content: end;
+    position: relative;
+
+}
