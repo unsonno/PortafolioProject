@@ -14,7 +14,7 @@
     font-style: normal;
 }
 .ytr {
-    font-size: 80px;
+    font-size: 75px;
   }
 .abme{
     background-image: none;
@@ -23,11 +23,13 @@
   }
 
 .pie-pagina{
-    font-size: 30px;
+    font-size: 29px;
+    text-align: center;
 }
 .profile {
    
-    height: 450px;
+    height: 360px;
+
 
 }
 .barra {
@@ -50,4 +52,11 @@
 }
 .link {
     font-size: 50px;
+}
+.CG {
+    font-size: 30px;
+   
+}
+.Habi {
+    font-size: 35px;
 }
