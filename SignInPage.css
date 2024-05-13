@@ -2,7 +2,7 @@
     font-family: "Tangerine", cursive;
     font-weight: 400;
     font-style: normal;
-}
+  }
 
 body{
     text-align: center;
@@ -17,7 +17,7 @@ input[type=text], input[type=password] {
     padding: 10px 10px;
     margin: 5px 0;
     display: inline-block;
-    border: 1px solid #ffffff;
+    border: 1px solid #ccc;
     box-sizing: border-box;
     
 }
@@ -44,7 +44,7 @@ button:hover {
     margin: 24px 0 12px 0;
 }
 img.avatar{
-    width:10%;
+    width:18%;
     border-radius: 50%;
 }
 .container {
@@ -58,14 +58,7 @@ span.psw {
     font-weight: 400;
     font-style: normal;
     font-size: 45px;
-    color: #ffffff;
+    color: #f1f1f1;
     
 
-}
-.uname {
-    color: black;
-
-
-
-    
 }

@@ -5,58 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="/Gallery.css">
+    <link rel="stylesheet" href="/lightbox.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+
 </head>
-<br>
-<div><h1 class="port">Portfolio</h1></div>
-<br>
 <body>
-
-  <div class="full-img" id="fullimgbox">
-    <img src="/imagenes/pattern1.jpg" id="fullImg" alt="">
-    <span onclick="cerrarImg()">X</span>
+  <h1 class="Beg">Portfolio</h1>
+  <div class="container"> 
+    <div class="gallery">
+      <a href="imagenes/Arbol.jpeg"data-lightbox="imgcon1" data-title="Una hoja tras otra">
+        <img src="/imagenes/Arbol.jpeg">
+      </a>
+      <a href="/imagenes/Hada.jpeg" data-lightbox="imgcon2" data-title="un soffio di vento">
+        <img src="/imagenes/Hada.jpeg" alt="">
+      </a>
+      <a href="/imagenes/creppy2.jpeg" data-lightbox="imgcon3" data-title="Under the mask">
+        <img src="/imagenes/creppy2.jpeg" alt="">
+      </a>
+      <a href="/imagenes/Meli.jpeg" data-lightbox="imgcon4" data-title="Melissa">
+        <img src="/imagenes/Meli.jpeg" alt="">
+      </a>
+    </div>
   </div>
+   <hr>
+    <div class="container2">
+      <div class="gallery2"> 
+        <a href="/imagenes/guilty crown.jpeg" data-lightbox="img6" data-title="Fan Art of Guilty Crown">
+          <img src="/imagenes/guilty crown.jpeg" alt="">
+        </a>
+        <a href="/imagenes/Tattoo.jpeg" data-lightbox="img7" data-title="Morrigan">
+          <img src="/imagenes/Tattoo.jpeg" alt="">
+        </a>
+        <a href="/imagenes/Victoria F.jpeg" data-lightbox="img8" data-title="Fan Art of Victoria Frances">
+          <img src="/imagenes/Victoria F.jpeg" alt="">
+        </a>
+        <a href="/imagenes/DIYS Danae.jpeg" data-lightbox="imgcon5" data-title="Draw it in your Style/Danae">
+          <img src="/imagenes/DIYS Danae.jpeg " alt="">
+        </a>
+      </div>
+    </div>
+<hr>
+    <div class="container3">
+      <div class="gallery3">paint
+        <a href="/imagenes/hongos.jpeg" data-lightbox="img9" data-title="Hongos">
+          <img src="/imagenes/hongos.jpeg" alt="">
+        </a>
 
-  <div>
-    <section class="imgcontainer">
-        <img src="/imagenes/Arbol.jpeg" class="arbol"> <br>-Una hoja<br>tras otra-<br> Made with pen <br>and ink >
-        <img src="/imagenes/Hada.jpeg" class="hada"> <br>-Viento- <br> Made with ink and color pencils</div>
-        <img src="/imagenes/creppy2.jpeg" class="under"> <br>-Under the Mask-<br> Made with ink</div>
-        <img src="/imagenes/Meli.jpeg" class="meli"> <br>-Meli-<br>Hecho para una amiga<br> Made only with a pencil </div>       
-        </section>
-        <br><hr><br>
-        <section class="imgcontainer1">
-        <div><p><h1>Sculpture</h1></p></div>
-        <div><img src="/imagenes/Maceta1.jpeg"  alt="Maceta" class="Maceta"> <br>-Ranita-<br> Made with Clay</div>
-        <div><img src="/imagenes/Maceta2.jpeg"  alt="Maceta2" class="Maceta2"> <br>-Ranita- <br> Colored with acrylic paint<br></div>
-        <div> <img src="/imagenes/vaquita.jpeg" alt="Vaquita" class="Vaquita"> <br>-Vaquita- <br> Inspired by a illustration  </div>
-        </section>
-        <br><hr><br>
-        <section class="imgcontainer2">
-        <div> <p><h1>Walls</h1></p></div>
-        <div><img src="/imagenes/Flores1.jpeg" onclick="opfullimg(this.src)"alt="flower1" class="flo1">  <br>-Enredadera- <br> Made with pen and oily paint</div>
-        <div><img src="/imagenes/Flores2.jpeg" onclick="opfullimg(this.src)"alt="flower2" class="flo2"> <br>-Enredadera- <br> Made for my mom. <br> </div>
-        <div><img src="/imagenes/Flores3.jpeg" onclick="opfullimg(this.src)" alt="" class="flo3"> <br>-Enredadera- <br>Made with a reference image</div>
-        </section>
-        <br><hr><br>
-        <section class="imgcontainer3">
-        <div><p><h1>Paint</h1></p></div>
-        <div> <img src="/imagenes/hongos.jpeg" onclick="opfullimg(this.src)" alt="hongos" class="hongos"> <br>-Hongos Magicos-<br> Made with acrylic paint</div>
-        <div> <img src="/imagenes/leon1.jpeg" onclick="opfullimg(this.src)" alt="lion1" class="lion"> <br>-Lion-<br>Made with watercolors</div>
-        <div><img src="/imagenes/leon2.jpeg" onclick="opfullimg(this.src)" alt="lion2" class="lion1"> <br>-Lion- <br> Beginning it</div>
-    </section>
-   <br><hr><br>         
-    <section class="imgcontainer4">
-        <div><p><h1>Fan Art or Inspired By</h1></p></div>
-        <div><img src="/imagenes/guilty crown.jpeg"onclick="opfullimg(this.src)" alt="shuinori" class="shuinori">  <br>-Void- <br> Inspired by a anime <br>Guilty Crown</div>
-        <div><img src="/imagenes/DIYS Danae.jpeg"onclick="opfullimg(this.src)" alt="DIYS" class="danae"> <br>-Danae- <br> Made for a <br> " Draw it in your style"</div>
-        <div><img src="/imagenes/Tattoo.jpeg"onclick="opfullimg(this.src)" alt="redesign" class="morrigan"> <br>-Morrigan- <br> Made for a tattoo stencil <br> Changing face to a comic style</div>
-        <div><img src="/imagenes/Victoria F.jpeg"onclick="opfullimg(this.src)" alt="VictoriaFrances" class="victoriaf" > <br>-Favole- <br> Fan Art of Victoria Frances Art <br> Made just with pencil</div>
-    </section>
+      <a href="imagenes/leon1.jpeg" data-lightbox="img14" data-title="Lion on Watercolors">
+        <img src="/imagenes/leon1.jpeg" alt="">
+      </a>
+      <a href="imagenes/leon2.jpeg" data-lightbox="img15" data-title="Lion">
+        <img src="imagenes/leon2.jpeg" alt="">
+      </a>
+      </div>
+    </div>
+    <hr>
+  <div class="container5">
+    <div class="gallery5">wall
+      <a href="imagenes/PizzaBar.jpeg" data-lightbox="img13" data-title="Einstein">
+        <img src="/imagenes/PizzaBar.jpeg" alt="">
+      </a>
+      <a href="/imagenes/Flores1.jpeg" data-lightbox="img10" data-title="On wall">
+        <img src="imagenes/Flores1.jpeg" alt="">
+      </a>
+      <a href="/imagenes/Flores2.jpeg" data-lightbox="img11" data-title="Flowers on wall">
+        <img src="/imagenes/Flores2.jpeg" alt="">
+      </a>
+      <a href="imagenes/Flores3.jpeg" data-lightbox="img12" data-title="Flowers">
+        <img src="imagenes/Flores3.jpeg" alt="">
+      </a>
+    </div>
+  </div>
+<hr>
+    <div class="container4">
+      <div class="gallery4"> 
+        <a href="imagenes/vaquita.jpeg" data-lightbox="img16" data-title="Vaquita">
+          <img src="imagenes/vaquita.jpeg" alt="">
+        </a>
+        <a href="imagenes/Maceta1.jpeg" data-lightbox="img17" data-title="FlowerPot">
+          <img src="imagenes/Maceta1.jpeg" alt="">
+        </a>
+        <a href="imagenes/Maceta2.jpeg" data-lightbox="img18" data-title="FrogPot">
+          <img src="imagenes/Maceta2.jpeg" alt="">
+        </a>
+      </div>
+    </div>
 
-    <script src="/Gallery.js"></script>
+
+      
+
+
+
+
+    <script src="/lightbox-plus-jquery.js"></script>
 
 </body>
 
